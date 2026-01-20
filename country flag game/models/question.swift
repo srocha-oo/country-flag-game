@@ -8,7 +8,7 @@
 import Foundation
 struct Answer: Identifiable {
     var id = UUID()
-    var tezt: String
+    var text: String
     var isCorrect: Bool
 }
 struct Question: Identifiable {
